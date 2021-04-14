@@ -3,24 +3,24 @@
 
 
 1. Пользователь задает время в часах, минутах и секундах, например, 10:02:35. Рассчитать время в секундах, прошедшее с начала суток (36155 в данном случае).
-```
-  fun seconds(hours: Int, minutes: Int, seconds: Int): Int = TODO()
+```kt
+fun seconds(hours: Int, minutes: Int, seconds: Int): Int = TODO()
 ```
 
 2. Найти длину отрезка, который соединяет точки на плоскости с координатами (x1, y1) и (x2, y2). Например, расстояние между (3, 0) и (0, 4) равно 5.
-```
-  fun trackLength(x1: Double, y1: Double, x2: Double, y2: Double): Double = TODO()
+```kt
+fun trackLength(x1: Double, y1: Double, x2: Double, y2: Double): Double = TODO()
 ```
 
 3. Пользователь задает целое число, большее 100 (например, 3210). Определить 2 число слева в этом числе (в данном случае 2).
+```kt
+fun secondDigit(number: Int): Int = TODO()
 ```
-  fun secondDigit(number: Int): Int = TODO()
-  ```
 
 4.Пользователь задает целое трехзначное число (например, 478). Необходимо вывести число, полученное из заданного перестановкой цифр в обратном порядке (например, 874).
+```kt
+fun numberRevert(number: Int): Int = TODO()
 ```
-  fun numberRevert(number: Int): Int = TODO()
-  ```
 
 
 
