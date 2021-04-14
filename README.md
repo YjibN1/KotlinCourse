@@ -17,7 +17,7 @@ fun trackLength(x1: Double, y1: Double, x2: Double, y2: Double): Double = TODO()
 fun secondDigit(number: Int): Int = TODO()
 ```
 
-4.Пользователь задает целое трехзначное число (например, 478). Необходимо вывести число, полученное из заданного перестановкой цифр в обратном порядке (например, 874).
+4. Пользователь задает целое трехзначное число (например, 478). Необходимо вывести число, полученное из заданного перестановкой цифр в обратном порядке (например, 874).
 ```kt
 fun numberRevert(number: Int): Int = TODO()
 ```
@@ -28,4 +28,4 @@ fun numberRevert(number: Int): Int = TODO()
 
 
 
-https://github.com/GnuriaN/format-README#%D0%9F%D0%BE%D0%B4%D1%81%D0%B2%D0%B5%D1%82%D0%BA%D0%B0-%D0%BA%D0%BE%D0%B4%D0%B0
+[Описание разметки файла README](https://github.com/GnuriaN/format-README#%D0%9F%D0%BE%D0%B4%D1%81%D0%B2%D0%B5%D1%82%D0%BA%D0%B0-%D0%BA%D0%BE%D0%B4%D0%B0)
