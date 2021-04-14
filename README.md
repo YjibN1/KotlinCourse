@@ -71,7 +71,7 @@ fun isPalindrome(n: Int): Boolean = TODO()
 
 ![Vladek](https://avatars.githubusercontent.com/u/82528804?s=400&u=dfe7d69d3d7f16f1449af0237250abdea1f8be7d&v=4)
 
-[Описание разметки файла README](https://github.com/GnuriaN/format-README#%D0%9F%D0%BE%D0%B4%D1%81%D0%B2%D0%B5%D1%82%D0%BA%D0%B0-%D0%BA%D0%BE%D0%B4%D0%B0)
+[Описание разметки файла README.md](https://github.com/GnuriaN/format-README#%D0%9F%D0%BE%D0%B4%D1%81%D0%B2%D0%B5%D1%82%D0%BA%D0%B0-%D0%BA%D0%BE%D0%B4%D0%B0)
 
 
 
