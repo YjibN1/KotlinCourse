@@ -83,7 +83,3 @@ fun main() {
     println("$DIG_NUMB-я цифра слева числа $VALUE: ${secondDigit(VALUE, DIG_NUMB)}")
     println("Развернутое число $VAL_REV: ${numberRevert(VAL_REV)}")
 }
-
-
-
-
