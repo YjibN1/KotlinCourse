@@ -43,10 +43,4 @@ fun main() {
     else {
         println("Exeption")
     }
-// 	for (i in 1..199 step 1) {
-//         if (i % 10 == 0) {
-//             println()
-//         }
-//   		print(ageDescription(i) + "   \t")
-// 	}   
 }
