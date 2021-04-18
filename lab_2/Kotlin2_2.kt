@@ -10,10 +10,7 @@ import kotlin.math.*
 /**
  * Метод переводит радианы в градусы
  */
-fun radToDeg(rad: Double): Double {
-    var deg: Double = rad * 180 / PI 
-	return deg
-}
+fun radToDeg(rad: Double) = rad * 180 / PI
 
  /**
  * Метод получает угол (в градусах) по трём сторонам
