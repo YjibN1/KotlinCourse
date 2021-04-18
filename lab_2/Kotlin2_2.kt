@@ -41,13 +41,13 @@ fun triangleKind(a: Double, b: Double, c: Double): Int? {
     var angleNaN: Boolean  = (angleAlpha == Double.NaN) || (angleBetta == Double.NaN) || (angleGamma == Double.NaN)
     
     if ((angleAlpha < RIGHT_ANGLE) && (angleBetta < RIGHT_ANGLE) && (angleGamma < RIGHT_ANGLE)) {
-		return 0
+        return 0
     } else if ((angleAlpha > RIGHT_ANGLE) || (angleBetta > RIGHT_ANGLE) || (angleGamma > RIGHT_ANGLE)) {
-		return 1
-	} else if (angleNull || angleNaN) {
+        return 1
+    } else if (angleNull || angleNaN) {
         return -1
     } else {
-		return -1
+        return -1
     }
 }
 
@@ -69,11 +69,11 @@ const val STRING_NAN		= "Не определён или не существуе�
 fun main() {
     var trKind = triangleKind(SIDE_A, SIDE_B, SIDE_C)
     print(STRING_TRIANGLE)
-	if (trKind == -1) {    
-		println(STRING_NAN)
+    if (trKind == -1) {    
+        println(STRING_NAN)
     } else if (trKind == 0) {
         println(STRING_ACUTE)
     } else if (trKind == 1) {
-    	println(STRING_BLUNT)
+        println(STRING_BLUNT)
     }
 }
