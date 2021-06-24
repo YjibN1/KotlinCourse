@@ -1,0 +1,48 @@
+/**
+ * Написать класс Прямоугольник. Определить в нём метод подсчета периметра.
+ * Определить в нём метод подсчета площади.
+ * Проверить корректность его работы.
+ *
+ * Доработать класс Прямоугольник: добавить метод, определяющий, является ли
+ * прямоугольник квадратом. Метод должен возвращать булевский ответ. Проверить
+ * корректность работы метода.
+ */
+
+fun main() {
+    val rect = Rectangle(65, 20)
+    println("Прямоугольник со сторонами ${rect.width} и ${rect.height}:"    )
+    println("Периметр: ${rect.getPerimeter()}")
+    println("Площадь:  ${rect.getArea()}")
+    println("Является квадратом: ${rect.isSquare()}")
+}
+
+/**
+ * Прямоугольник со сторонами [width] и [height].
+ */
+class Rectangle(val width: Int, val height: Int) {
+
+    companion object {
+        const val WIDTH_IS_INCORRECT = "Ширина указана неверно"
+        const val HEIGHT_IS_INCORRECT = "Высота указана неверно"
+    }
+
+    init {
+        require(width > 0) { WIDTH_IS_INCORRECT }
+        require(height > 0) { HEIGHT_IS_INCORRECT }
+    }
+
+    /**
+     * Получить периметр [Rectangle].
+     */
+    fun getPerimeter() = 2 * (width + height)
+
+    /**
+     * Получить площадь [Rectangle]
+     */
+    fun getArea() = width * height
+
+    /**
+     * Проверка [Rectangle] на прямоугольник.
+     */
+    fun isSquare() = width == height
+}
